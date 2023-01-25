@@ -1,0 +1,32 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.custom-link {
+    font-weight: bold;
+    color:white;
+}
+
+.result-group {
+    font-weight: bold;
+    color: #435545;
+}
+
+.result {
+    font-weight: bold;
+    color: royalblue
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.punk {
+    color: red;
+}
+
+.nice {
+    color: yellow;
+}
