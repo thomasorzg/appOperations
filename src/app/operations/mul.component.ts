@@ -48,6 +48,9 @@ export class MulComponent {
   }
 
   mul() {
+    if(this.num1 === 0 || this.num2 === 0) {
+      return alert('Please enter a number greater than zero');
+    }
     this.result = Number(this.num1) * Number(this.num2);
   }
 }

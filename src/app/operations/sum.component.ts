@@ -48,6 +48,9 @@ export class SumComponent {
   }
 
   sum() {
-    this.result = this.num1 + this.num2;
+    if(this.num1 === 0 || this.num2 === 0) {
+      return alert('Please enter a number greater than zero');
+    }
+    this.result = Number(this.num1) + Number(this.num2);
   }
 }
