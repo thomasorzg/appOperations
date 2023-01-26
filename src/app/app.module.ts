@@ -29,11 +29,5 @@ import { DivComponent } from './operations/div.component';
 export class AppModule { }
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCD8KNzHBTLgi8-IkzdJpsBq5Au7Eznjww",
-  authDomain: "appoperations-9a986.firebaseapp.com",
-  projectId: "appoperations-9a986",
-  storageBucket: "appoperations-9a986.appspot.com",
-  messagingSenderId: "1010340976921",
-  appId: "1:1010340976921:web:195a549e24294740a68d88",
-  measurementId: "G-22GW71QMBM"
+  apiKey: "AIzaSyCD8KNzHBTLgi8-IkzdJpsBq5Au7Eznjww"
 };
